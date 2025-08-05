@@ -1,0 +1,32 @@
+body{
+    margin :0;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+nav a {
+    text-decoration: none;
+    color:greenyellow;
+}
+header {
+    background-color: antiquewhite;
+    color:rgb(21, 128, 223);
+    padding: 1rem;
+}
+nav a:hover {
+    color: red;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:bisque;
+    padding: 3rem;
+
+}
