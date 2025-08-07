@@ -30,3 +30,62 @@ nav a:hover {
     padding: 3rem;
 
 }
+.hero img{
+    width: 150px;
+    height: 150px;
+    background-color: beige;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+.pr{
+    margin-left: 1rem;
+}
+.pr{
+    background-color:#79CBCA;
+}
+.section{
+    padding: 2rem;
+}
+.skill-grid{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax)(120px, 1fr);
+    gap: 1rem;
+    justify-content: center;
+}
+.skill{
+    background-color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+.project-card{
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-left: 5px solid #79CBCA;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
+         .btn-grad {
+            height: 1rem;
+            width: 10rem;
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color:antiquewhite;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+         
