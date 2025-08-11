@@ -66,6 +66,12 @@ nav a:hover {
     margin-top: 1rem;
     margin-right: 2rem;
 }
+.social-icons i{
+    font-size:2rem;
+    margin-right: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
 
          .btn-grad {background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%)}
          .btn-grad {
